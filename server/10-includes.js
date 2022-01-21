@@ -10,6 +10,6 @@ for (let index = 0; index < pets.length; index++){
     }
 };
 
-const respuesta2 = pets.includes(`dog`);
+const respuesta2 = pets.includes(`dlait`);
 console.log("for", respuesta);
-console.log("includes", respuesta);
+console.log("includes", respuesta2);

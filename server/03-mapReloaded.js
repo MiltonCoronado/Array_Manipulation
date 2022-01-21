@@ -1,3 +1,4 @@
+//MAP, con objetos.
 const orders = [
     {
       customerName: "Nicolas",
@@ -21,20 +22,20 @@ const orders = [
     },
   ];
 
-//   const respuesta = orders.map(item => item.total);
+  const respuesta = orders.map(item => item.total);
 
-//   console.log(orders);
-//   console.log(respuesta);
+  console.log(orders);
+  console.log(respuesta);
 
 
 
-//   const respuesta2 = orders.map(item => {
-//        item.impuesto = .19;//si el elemento existe accede a el, si no lo empuja al objeto copia, pero tambien modifica al original, esto sucede solo con objects. 
-//        return item; 
-//   });
+  const respuesta2 = orders.map(item => {
+       item.impuesto = .19;//si el elemento existe accede a el, si no lo empuja al objeto copia, pero tambien modifica al original, esto sucede solo con objects. 
+       return item; 
+  });
 
-//   console.log(orders);
-//   console.log(respuesta2);
+  console.log(orders);
+  console.log(respuesta2);
 
 
 

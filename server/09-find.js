@@ -22,22 +22,22 @@ const products = [
     {
       name: "Pizza",
       price: 12,
-      id: '🍕'
+      id: '🍕',
     },
     {
       name: "Burger",
       price: 23,
-      id: '🍔'
+      id: '🍔',
     },
     {
       name: "Hot dog",
       price: 34,
-      id: '🌭'
+      id: '🌭',
     },
     {
       name: "Hot cakes",
       price: 355,
-      id: '🥞'
+      id: '🥞',
     },
 ];
 

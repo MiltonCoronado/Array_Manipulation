@@ -13,8 +13,13 @@ console.log("for", respuesta);
 console.log("join", respuesta2);
 
 
-//JOIN && SPLIT, inmutable. (genero un array con split, genero un string con join afregandole guiones entre cada elemento de array)
+//SPLIT, inmutable. split retorna un Array, genero un string con join afregandole guiones entre cada elemento de array).
 const title = `Curso de Manipulacion de Arrays`;
 
-const urlFinal = title.split(" ").join("-").toLocaleLowerCase();
+const urlFinal = title.split(" ")//.join("-").toLocaleLowerCase();
 console.log(urlFinal);
+
+
+
+
+

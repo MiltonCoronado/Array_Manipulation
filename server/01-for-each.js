@@ -6,4 +6,5 @@ const letters = [`a`, `b`, `c`];
 //     console.log(`forNormal`,element);
 // };
 
+console.log("original", letters)
 letters.forEach(item => console.log(`forEach`,item));
